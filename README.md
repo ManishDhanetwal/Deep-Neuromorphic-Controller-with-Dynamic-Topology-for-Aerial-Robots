@@ -10,7 +10,7 @@ Here is a list of simple commands and steps to be able to execute the codes and 
 2. Run the following commands in order : *(Any simple errors, please refer to the compiler suggestion ) i have tried to cover all here as i was able to reproduce the results.
   1. wget https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_ros_melodic.shls\
   2. source ubuntu_sim_ros_melodic.sh
-  3. After this make a new folder at desktop and download px4 and run the script:
+  ##After this make a new folder at desktop and download px4 and run the script:
     1.  git clone https://github.com/PX4/PX4-Autopilot
     2.  cd PX4/-Autopilot
     3.  make p4_sitl gazebo
