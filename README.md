@@ -32,13 +32,13 @@ Here is a list of simple commands and steps to be able to execute the codes and 
       10. Sudo apt-get update
       11. Sudo apt-upgrade 
   ##  You should have the px4 running a simulation now. Close it
-    4.  We will use Gazebo with ROS wrapper for this project
-    5.  cd px4/PX4-Autopilot
-    6.  DONT_RUN=1 make px4_sitl_default gazebo
-    7.  source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-    8.  export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-    9.  export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-    10.  roslaunch px4 mavros_posix_sitl.launch
+    1.  We will use Gazebo with ROS wrapper for this project
+    2.  cd px4/PX4-Autopilot
+    3.  DONT_RUN=1 make px4_sitl_default gazebo
+    4.  source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
+    5.  export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
+    6.  export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
+    7.  roslaunch px4 mavros_posix_sitl.launch
   3.  Now the px4 would hv connected to the simulator gazebo on TCP port 4560
   4.  Choose a script from the src folder and just run it with python ./ypur_choice_of_script
 
