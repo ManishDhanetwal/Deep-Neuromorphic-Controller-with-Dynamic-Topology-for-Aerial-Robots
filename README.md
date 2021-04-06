@@ -1,7 +1,7 @@
 # Deep-Neuromorphic-Controller-with-Dynamic-Topology-for-Aerial-Robots
 Deep Neuromorphic Controller with Dynamic Topology for Aerial Robots code execution setup
 
-Welcome to the simulation world of the published paper on Deep neuromorphic controller . 
+Welcome to the simulation world of the published paper on Deep neuromorphic controller with dynamic Topology for aerial robots. 
 
 Here is a list of simple commands and steps to be able to execute the codes and see results for further research.
 
