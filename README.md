@@ -32,6 +32,8 @@ Here is a list of simple commands and steps to be able to execute the codes and 
       10. Sudo apt-get update
       11. Sudo apt-upgrade 
   ##  You should have the px4 running a simulation now. Close it
+  
+ 
     1.  We will use Gazebo with ROS wrapper for this project
     2.  cd px4/PX4-Autopilot
     3.  DONT_RUN=1 make px4_sitl_default gazebo
@@ -43,3 +45,6 @@ Here is a list of simple commands and steps to be able to execute the codes and 
   4.  Choose a script from the src folder and just run it with python ./ypur_choice_of_script
 
 
+##NOTE 
+Please update the subscriber call when initialising ROS to collect the correct local_pos of the drone. Only the result folder has the correct calls.
+So if you wish to run the other scripts too, do repace "/mocap/mavros/pose" to "mavros/local_position/pose"
