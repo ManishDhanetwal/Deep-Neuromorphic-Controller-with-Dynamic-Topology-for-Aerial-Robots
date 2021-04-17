@@ -1,1 +1,3 @@
-The scripts in this files are used to reproduce the results 
+The scripts in this folder are used to reproduce the results.
+
+## The imports in the scripts still depend on the classes defined in the src/scripts. eg: data logger, trajectory  ..etc .
