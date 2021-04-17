@@ -135,10 +135,10 @@ def main():
     rate  = rospy.Rate(RATE)        # ROS loop rate, [Hz]
 
     # Subscribe to drone state
-    rospy.Subscriber('mavros/state', State, uav.stateCb)
+    rospy.Subscriber('/mavros/state', State, uav.stateCb)
 
     # Subscribe to drone's local position
-    rospy.Subscriber('mavros/mocap/pose', PoseStamped, uav.posCb)
+    rospy.Subscriber('/mavros/local_position/pose', PoseStamped, uav.posCb)
 
     # Setpoint publisher
     velocity_pub = rospy.Publisher('/mavros/setpoint_velocity/cmd_vel', TwistStamped, queue_size=10)
