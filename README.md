@@ -48,3 +48,11 @@ Here is a list of simple commands and steps to be able to execute the codes and 
 ## NOTE 
 Please update the subscriber call when initialising ROS to collect the correct local_pos of the drone. Only the result folder has the correct calls.
 So if you wish to run the other scripts in src folder , do repace "/mocap/mavros/pose" to "/mavros/local_position/pose"
+
+
+
+Reference:
+
+Kocer, A. Hady, H. Kandath, M. Pratama, M. Kovac, Deep Neuromorphic Controller with Dynamic Topology for Aerial Robots, ICRA, 2021
+
+ 
